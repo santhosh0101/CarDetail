@@ -1,2 +1,3 @@
 This is a Car Store project to store the car detail in Google App Engine Database.
 And Dealer can also Retrieve the specific data from Databse as there requirement.
+This database connectivity is done using Objectify API
