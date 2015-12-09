@@ -1,0 +1,77 @@
+
+h1{
+	color:white;
+	font-size: 45px;
+	font-style: cursive;
+
+}
+#advsearch{
+	color:red;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 20px;
+	padding-left: 20px;
+
+}
+.sopt{
+	font-size: 15px;
+	color:blue;
+	width: 180px;
+	height: 25px;
+	font-weight: bold;
+}
+
+#tb{
+	margin-left: 320px;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	background: 1px solid blue;
+	height: :50px;
+}
+
+.resize1{
+	width: 100px;
+	height: 20px;
+	font-size: 12px;
+	color:blue;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;}
+.resize{
+	width: 200px;
+	height: 25px;
+	font-size: 15px;
+	color:blue;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+.myButton {
+	margin-left: 90px;
+	margin-top: 20px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#ce0100;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

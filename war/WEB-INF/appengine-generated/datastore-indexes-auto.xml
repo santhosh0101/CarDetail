@@ -1,0 +1,17 @@
+<!-- Indices written at Tue, 8 Dec 2015 18:03:36 IST -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Car" ancestor="false" source="auto">
+        <property name="carColor" direction="asc"/>
+        <property name="carMileage" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Car" ancestor="false" source="auto">
+        <property name="carColor" direction="asc"/>
+        <property name="carSpeed" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

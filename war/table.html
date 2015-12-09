@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<meta charset="utf-8"/>
+	<title>Student Detail </title>
+
+<script src="js/jquery-1.11.3.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/car.css"/>
+			<link rel="stylesheet" type="text/css" href="css/table.css"/>
+</head>
+<body background = "image/lba.jpg" >
+	<h1> Search Your Car Information Here</h1>
+<div id="advsearch">Speed <input id="aspeed" class="resize1" type="number" name="acid" >
+                   Name <input id="aspeedto" class="resize1" type="text" name="aname" >
+                   Color <input id="acolor" class="resize1" type="text" name="acolor" > 
+                   Price <input id="aprice" class="resize1" type="text" name="aprice" >
+                  Mileage <input id="apriceto" class="resize1" type="text" name="apriceto" > </div>
+
+  <h3>
+    <select class="sopt" id="properties">
+        <option value="all">Select Car Properties</option>
+        <option value="adv">Advance Search</option>
+        <option value="carId">Car ID</option>
+        <option value="carName">Car Name</option>
+        <option value="carPrice">Car Price</option>
+        <option value="carSpeed">Car Speed</option>
+        <option value="carColor">Car Color</option>
+        <option value="carMileage">Car Mileage</option>
+      </select>
+        <input id="cid" class="resize" type="text" name="carid" >
+        <input id="search" class="myButton" type="submit" value="Search">
+        <input class="myButton" type="submit" value="Search All" id="search_all"></h3>
+  <h2> </h2>
+	
+		<table id="myTable" >
+	<tr><th>Car ID</th><th>Car Name</th><th>Car Speed</th><th> Car Price</th><th>Car Color</th><th>Car Mileage</th></tr><!-- Table Header -->
+    
+</table>
+ <script src="js/retrive.js">
+  </script>
+</body>
+</html>
