@@ -1,6 +1,6 @@
 # **Merge Field Functionality**
 
-### **What are Merge Fields?**
+### **What are Merge Fields?..........**
 
 Merge Fields incorporates values from a record. The record can be a contact, deal, calendar etc. It can be used in multiple places like Email Templates, campaign nodes. <u> For example, you can place a merge</u> field in a Email Template to include the recipient name. This makes the Email personal to the recipient.
 
